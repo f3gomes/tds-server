@@ -1,5 +1,5 @@
 import { CardType, Game, GameStatus } from "../types/game.types";
-import { generateDeck } from "../../../server/src/game/utils";
+import { generateDeck } from "../game/utils";
 import { generateRoleCount, getCurrentRound } from "./game";
 
 describe("generateRoleCount", () => {
